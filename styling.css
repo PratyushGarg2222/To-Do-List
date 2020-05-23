@@ -1,0 +1,116 @@
+body{
+
+    background: linear-gradient(to right, rgb(39, 196, 240), rgb(217, 230, 190));
+    font-family: 'Roboto', sans-serif;
+}
+
+#full-container{
+
+    background: white;
+    width: 400px;
+    margin: 100px auto;
+
+}
+
+#to-do-heading{
+
+    text-transform: uppercase;
+    color: white;
+    background: steelblue;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+span:first-of-type{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+button:first-of-type{
+
+
+    background: steelblue;
+    color: white;
+    outline: none;
+    border: 0px;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100%;
+
+}
+
+input{
+
+    width: 92%;
+    height: 30px;
+    border: none;
+    padding: 4%;
+    background: #F6F6F6;
+    color: rgb(27, 136, 167);
+    font-size: 20px;
+    font-weight: 300;
+
+}
+
+
+
+.itemOdd{
+
+    background: white;
+    color: #494949;
+    width: 400px;
+    height: 40px;
+
+}
+
+.itemEven{
+
+    background: #F6F6F6;
+    color: #4d4c4c;
+   
+    width: 400px;
+    height: 40px;
+
+
+}
+
+
+.done{
+
+    color: slategray;
+    text-decoration: line-through;
+
+}
+
+.delete-button{
+
+    color: white;
+    background: #E5422F;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 5px;
+
+}
+
+.todoText{
+
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 7%;
+    line-height: 40px;
+}
+
+.smallButton{
+
+    font-size: 15px;
+
+}
+
