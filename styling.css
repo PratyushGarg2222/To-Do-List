@@ -9,6 +9,7 @@ body{
     background: white;
     width: 400px;
     margin: 100px auto;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
 
 }
 
@@ -55,9 +56,18 @@ input{
     color: rgb(27, 136, 167);
     font-size: 20px;
     font-weight: 300;
+    outline: none; 
 
 }
 
+input:focus {
+
+    background: white;
+    outline-color: rgb(39, 196, 240);
+    outline-width: 3.5px;
+    outline-style: solid;
+
+}
 
 
 .itemOdd{
@@ -97,7 +107,7 @@ input{
     text-align: center;
     line-height: 40px;
     font-size: 5px;
-
+    transition-duration: 0.5s;
 }
 
 .todoText{
@@ -106,6 +116,7 @@ input{
     font-weight: 400;
     margin-left: 7%;
     line-height: 40px;
+    transition-duration: 0.5s;
 }
 
 .smallButton{
